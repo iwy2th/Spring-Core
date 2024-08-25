@@ -20,5 +20,13 @@ logging.level.root=WARN
 logging.level.org.springframework.web=DEBUG
 logging.level.org.hibernate=ERROR
   ```
+ ### 
+  ```properties
+# display logging SQL statements
+logging.level.org.hibernate.SQL=debug
+logging.level.org.hibernate.jdbc.bind=trace
+# Create database from code
+spring.jpa.hibernate.ddl-auto=create / update /...
+  ```
 </details>
 
